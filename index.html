@@ -12,21 +12,24 @@
 </head>
 
 <body>
-
-    <header>
-        <h1>Styles Conference</h1>
-        <h2>August 24th-26th in Chicago, IL</h2>
-        <nav>
-            <ul>
-                <li><a href="/index.html">HOME</a></li>
-                <li><a href="/speakers.html">SPEAKERS</a></li>
-                <li><a href="/schedule.html">SCHEDULE</a></li>
-                <li> <a href="/venue.html">VENUE</a></li>
-                <li><a href="/register.html">REGISTER</a></li>
-            </ul>
-        </nav>
+    <!--Header-->
+    <header class="flex-container">
+        <h1 class="conf-logo">Styles Conference</h1>
+        <div>
+            <h2>August 24th-26th in Chicago, IL</h2>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/speakers.html">SPEAKERS</a></li>
+                    <li><a href="/schedule.html">SCHEDULE</a></li>
+                    <li> <a href="/venue.html">VENUE</a></li>
+                    <li><a href="/register.html">REGISTER</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
+    <!--Summary-->
     <section>
         <h2>Dedicated to the Craft of Building Websites</h2>
         <p>Every year the brightest web designer and front end developers descend on Chicago to discuss the latest
@@ -34,47 +37,50 @@
         <a href="/register.html">Register Now</a>
     </section>
 
-    <main>
-
-        <section>
-            <figure>
+    <!--Main Cards-->
+    <main class="flex-container">
+        <section class="conf-card">
+            <figure class="conf-card--img">
                 <figcaption>Speakers</figcaption>
-                <img src="#" alt="#">
+                <img src="images/speakers.jpg" alt="Carolyn R. speaking on stage">
             </figure>
             <h3>World Class Speakers</h3>
+            <p>Joining us from all around the world are over twenty fantastic speakers, here to share their stories.</p>
         </section>
 
-        <section>
-            <figure>
+        <section class="conf-card">
+            <figure class="conf-card--img">
                 <figcaption>Schedule</figcaption>
-                <img src="#" alt="#">
+                <img src="images/schedule.jpg" alt="Audience at a lecture">
             </figure>
             <h3>Three Inspiring Days</h3>
+            <p>Enjoy three inspiring and action-packed days of tals, gatherings, and all-around good times.</p>
         </section>
 
-        <section>
-            <figure>
+        <section class="conf-card">
+            <figure class="conf-card--img">
                 <figcaption>Venue</figcaption>
-                <img src="#" alt="#">
+                <img src="images/venue.jpg" alt="Exterior shot of the Chicago Theatre">
             </figure>
             <h3>The Chicago Theatre</h3>
+            <p>Within the heart of downtown Chicago, The Chicago Theatre will provide a beautiful conference venue.</p>
         </section>
-
     </main>
 
-    <footer>
+    <!--Footer-->
+    <footer class="flex-container">
         <div>
             <p>&copy; Styles Conference</p>
         </div>
-         <nav>
-             <ul>
-                 <li><a href="/index.html">Home</a></li>
-                 <li><a href="/speakers.html">Speakers</a></li>
-                 <li><a href="/schedule.html">Schedule</a></li>
-                 <li> <a href="/venue.html">Venue</a></li>
-                 <li><a href="/register.html">Register</a></li>
-             </ul>
-         </nav>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/speakers.html">Speakers</a></li>
+                <li><a href="/schedule.html">Schedule</a></li>
+                <li> <a href="/venue.html">Venue</a></li>
+                <li><a href="/register.html">Register</a></li>
+            </ul>
+        </nav>
     </footer>
 
 </body>

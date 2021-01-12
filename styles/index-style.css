@@ -2,5 +2,18 @@
 
  body {
          font-family: 'Lato', sans-serif;
+         
+         text-align: center;
+         background-color: #293f50;
+         color: white;
+ }
 
+ img {
+         width: 100%;
+ }
+
+ .flex-container {
+         display: flex;
+         justify-content: space-between;
+         width: 90%;
  }
