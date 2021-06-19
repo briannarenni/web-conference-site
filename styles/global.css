@@ -1,0 +1,90 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+
+ :root {
+   --sea-green: #648880;
+   --bg-blue: #293f50;
+   --gray: #888;
+   --cool-gray: #a9b2b9;
+ }
+
+ main {
+   background-color: white;
+ }
+
+ /*GLOBAL SETS*/
+ body {
+   width: 100%;
+   font-family: 'Lato', sans-serif;
+   background-color: var(--bg-blue);
+   color: white;
+   box-sizing: content-box;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+ }
+
+ a {
+   color: white;
+ }
+
+ a:hover {
+   color: #648880;
+ }
+
+ img {
+   width: 100%;
+ }
+
+ nav ul li {
+   margin: 5px;
+   letter-spacing: 1.2px;
+ }
+
+ .flex-static {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+ }
+
+ /*HEADER SETS*/
+ .header {
+   min-height: 100px;
+   border-bottom: 1px solid white;
+   padding: 10px;
+ }
+
+ .header-left {}
+
+ .header-right {
+   text-align: right;
+ }
+
+ .header-logo {
+   font-size: 48px;
+   font-weight: 100;
+   text-transform: uppercase;
+   margin-left: 5px;
+ }
+
+ .header-dates {
+   font-weight: 300;
+   color: #648880;
+ }
+
+ .header-nav {
+   letter-spacing: 1.2px;
+   min-width: 50%;
+ }
+
+ /*FOOTER SETS*/
+ .footer-box {
+   font-size: 16px;
+   padding: 10px;
+   margin-top: auto;
+ }
+
+ .footer-left {}
+
+ .footer-nav {
+   font-weight: 300;
+ }

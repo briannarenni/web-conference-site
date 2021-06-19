@@ -1,0 +1,10 @@
+Font Family: Lato (100, 200, 400)
+
+Colors:
+ Sea Green: #648880
+
+ Background: #293f50
+
+ Gray: #a9b2b9
+
+ Fallback background: #888

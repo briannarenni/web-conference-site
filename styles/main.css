@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+
+:root {
+  --sea-green: #648880;
+  --bg-blue: #293f50;
+  --gray: #888;
+  --cool-gray: #a9b2b9;
+}
+
+/*INDEX SETS*/
+#hero-box {
+  background: linear-gradient(to right, #a1d3b0, #a1f7bb);
+  font-weight: 100;
+  text-align: center;
+  font-size: 20px;
+  color: var(--gray);
+  min-height: 200px;
+  padding: 15px;
+}
+
+#hero-content h2 {
+  font-weight: 300;
+  color: var(--sea-green);
+}
+
+.btn {
+  border: 1px solid white;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.btn a {
+  color: var(--sea-green);
+  font-weight: 300;
+}
+
+.btn:hover {
+  background-color: var(--cool-gray);
+}
+
+.main-flex {
+  display: flex;
+  background-color: white;
+  text-align: center;
+  color: var(--cool-gray);
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 300;
+  min-height: 400px;
+}
+
+.main-flex h3 {
+  color: var(--sea-green);
+}
+
+.conf-card {
+  width: 40%;
+  padding: 10px;
+}
