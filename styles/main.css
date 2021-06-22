@@ -24,7 +24,6 @@
 
 .content-row {
   display: flex;
-
 }
 
 .content-col {
@@ -32,7 +31,6 @@
 }
 
 /*INDEX SETS*/
-
 .btn {
   border: 1px solid white;
   padding: 15px;
@@ -81,14 +79,12 @@
 }
 
 .speaker-text h3, p {
-    color: var(--gray);
+  color: var(--gray);
 }
-
 
 .speaker-right {
   text-align: center;
   margin-bottom: 350px;
-
 }
 
 .speaker-img {
@@ -102,15 +98,47 @@
 }
 
 .content-col h3, p {
-    color: var(--gray);
+  color: var(--gray);
 }
 
 .venue-left {
-width: 150px;
-padding: 20px;
-
+  width: 150px;
+  padding: 10px;
 }
 
 .venue-right {
-margin: 20px;
+  margin: 20px;
+}
+
+/*MEDIA QUERIES*/
+@media only screen and (min-width: 300px) and (max-width: 800px) {
+  .conf-card {
+    padding: 0px;
+    width: 150px;
+  }
+
+  .speaker-right {
+    margin-top: 100px;
+    margin-bottom: 400px;
+  }
+
+
+  .conf-card {
+    padding: 0px;
+    width: 150px;
+  }
+
+  .speaker-right {
+    margin-top: 100px;
+    margin-bottom: 400px;
+  }
+
+iframe {
+  visibility: hidden;
+}
+
+.venue-left {
+  margin-left: 50px;
+}
+
 }
