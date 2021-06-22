@@ -40,6 +40,10 @@
    letter-spacing: 1.2px;
  }
 
+ .current-page {
+   color: var(--sea-green);
+ }
+
  .flex-static {
    display: flex;
    justify-content: space-between;
@@ -88,3 +92,5 @@
  .footer-nav {
    font-weight: 300;
  }
+
+ /*MEDIA QUERIES*/
